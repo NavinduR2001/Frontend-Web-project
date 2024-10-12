@@ -1,0 +1,307 @@
+   <!--Photo gallery-->
+   <div class="photo_gallery">
+    <div class="gallery_item">
+        <img src="Gallary_image/1.jpg" alt="Photo 1">
+        <div class="overlay">
+            <h3>Photo 1</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/2 (2).jpg" alt="Photo 2">
+        <div class="overlay">
+            <h3>Photo 2</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/3.jpg" alt="Photo 3">
+        <div class="overlay">
+            <h3>Photo 3</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/4.jpg" alt="Photo 4">
+        <div class="overlay">
+            <h3>Photo 4</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/5 (2).jpg" alt="Photo 5">
+        <div class="overlay">
+            <h3>Photo 5</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/10.jpg" alt="Photo 6">
+        <div class="overlay">
+            <h3>Photo 6</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/7.jpg" alt="Photo 7">
+        <div class="overlay">
+            <h3>Photo 7</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/8.jpg" alt="Photo 8">
+        <div class="overlay">
+            <h3>Photo 8</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/9.jpg" alt="Photo 9">
+        <div class="overlay">
+            <h3>Photo 9</h3>
+        </div>
+    </div>
+    <div class="gallery_item">
+        <img src="Gallary_image/6.jpg" alt="Photo 10">
+        <div class="overlay">
+            <h3>Photo 10</h3>
+        </div>
+    </div>
+</div>
+
+
+
+/**Photo gallery**/
+<style>
+.photo_gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery_item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery_item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.gallery_item:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery_item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.overlay h3::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin: 10px auto 0;
+}
+</style>
+
+
+<!--Hot offer-->
+
+<div class="ho_topic">
+    HOT OFFERS
+
+<center><div class="offers">
+    <div class="sp sp1"><h3>SPECIAL PACK<br>NUWARAELIYA</h3>
+        <div class="oimg"><img src="train.jpg" height="150px" width="300px"></div>
+        <div class="list1">
+            <ul>
+                <li>ONE WEEK</li>
+                <li>20+ PLACES</li>    
+                <li>HOTEL SERVICES</li>    
+                <li>VIP TRAVEL SERVICE</li>    
+                <li>GUIDING</li>   
+            </ul>
+        </div>
+
+        <div class="price1">$2000</div>
+        
+        <button class="view1">VIEW</button>
+
+        
+    </div>
+    <div class="sp sp2"><h3>10 % OFF<br>TRAVELING PACK</h3>
+        <div class="oimg"><img src="elephant.jpg" height="150px" width="300px"></div>
+        <div class="list1">
+            <ul>
+                <li>TWO WEEK</li>
+                <li>30+ PLACES</li>    
+                <li>HOTEL SERVICES</li>    
+                <li>SAFARI+HIKING+ADVENTURE</li>    
+                <li>GUIDING</li>   
+            </ul>
+        </div>
+        <div class="price1">$3200</div>
+        <button class="view1">VIEW</button>
+    </div>
+    <div class="sp sp3"><h3>DOWN SOUTH<br>BUGET PACK</h3>
+        <div class="oimg"><img src="beach.jpg" height="150px" width="300px"></div>
+        <div class="list1">
+            <ul>
+                <li>TWO WEEK</li>
+                <li>15 PLACES</li>    
+                <li>HOTEL SERVICES</li>    
+                <li>SURFING+SAFARI</li>    
+                <li>GUIDING</li>   
+            </ul>
+        </div>
+        <div class="price1">$1000</div>
+        <button class="view1">VIEW</button>
+    </div>
+</div></center>
+</div>
+
+
+.ho_topic{
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    background: linear-gradient(to right, #144f8a, #000121);
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color:rgb(255, 255, 255) ;
+    border-top: 3px solid rgb(255, 255, 255) ;
+    border-bottom: 3px solid rgb(255, 255, 255) ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    font-size: 32px;
+ }
+ 
+ .top2{
+     height: 20px;
+ 
+ }
+ 
+ 
+ .offers{
+     display: block;
+     margin: 0;
+     padding: 50px; 
+     
+ }
+ .sp{
+     align-items: center;
+     display: inline-block;
+     height: 450px;
+     width: 300px;
+     box-shadow: 3px 3px 15px #134e89;
+     border-radius: 10px;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #ffffff;
+     
+ 
+ }
+ .sp1{
+     color:   #134e89;;
+     margin: 40px;
+     font-weight: 700;
+     font-size: 20px;
+     padding-bottom: 20px;
+ }
+ 
+ .sp1 h3{
+     position: relative;
+     display: block;
+     margin-top: 0;
+     padding: 0;
+     top: 5px;
+ }
+ .oimg{
+     margin: 0;
+     padding: 0;
+     display: block;
+     position: relative;
+     top: 0px;
+ }
+ 
+ .sp2{
+     color:   #134e89;;
+     padding: 0;
+     font-weight: 700;
+     font-size: 20px;
+     padding: 0;
+     margin: 40px;
+     padding-bottom: 20px;
+ }
+ .sp2 h3{
+     position: relative;
+     display: block;
+     margin-top: 0;
+     padding: 0;
+     top: 5px;
+ }
+ .sp3{
+     color:   #134e89;;
+     padding: 0;
+     font-weight: 700;
+     font-size: 20px;
+     padding: 0;
+     margin: 40px;
+     padding-bottom: 20px;
+ }
+ .sp3 h3{
+     position: relative;
+     display: block;
+     margin-top: 0;
+     padding: 0;
+     top: 5px;
+ }
+ .list1{
+     color:   #134e89;;
+     text-align: left;
+     font-size: 15px;
+     font-weight: 400;
+     font-style: italic;
+ }
+ .view1{
+     background-color:rgb(255, 138, 0) ;
+     padding: 10px 25px;
+     color: white;
+     border: none;
+     display: block;
+     font-size: 16px;
+     border-radius: 10px;
+     cursor:pointer;
+     margin-bottom: 20px;
+ }
+ .price1{
+     margin: 0;
+     padding: 0;
+     display: block;
+     position: relative;
+     bottom: 10px;
+     font-size: 15;
+ }
+ 
