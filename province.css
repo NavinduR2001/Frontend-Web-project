@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.navbar {
+    background: linear-gradient(to right, #144f8a, #000121);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 60px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu_item:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.login-btn {
+    background-color:  rgb(253, 152, 0);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 0px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #1e90ff;
+    color: white;
+    border: 1px solid rgb(253, 152, 0);
+    font-weight: bold;
+}
+
+.divider {
+    color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: 8px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+.province_top{
+    display: block;
+    margin: 60px 330px;
+    background-color: #144f8a;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 96px;
+    padding: 20px 120px;
+    border-radius: 15px;
+    background: url(Places_images/southern_top2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: 5%;
+    text-shadow: 5px 5px 15px rgb(116, 116, 116);
+}
+.main_places{
+    display: block;
+}
+.top_sub{
+    margin: 20px;
+    background-color: #000121;
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(189, 189, 189);
+    
+}
+.pic1{
+    background: url("Places_images/safari.jpg");
+    background-size: cover;
+}
+.pic2{
+    background: url("Places_images/yaka\ image.jpg");
+    background-size: cover;
+}
+.pic3{
+    background: url("Places_images/surfing.jpg");
+    background-size: cover;
+}
+.Sub_topic{
+    color: #134e89;
+}
+.sub_top_div{
+    margin: 0;
+    padding: 20px 310px ;
+}
+.sub_topic_intro {
+    
+    font-weight:400;
+    color:#134e89 ;
+    text-align: justify;
+    font-size: 18px;
+}
+.read_more{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+.read_more:hover{
+    background-color: #0056b3;
+    font-size: 16px;
+}
+.more_content{
+    display: none;
+}
+.place_details{
+    background-color: #dfdfdf;
+    margin: 50px 310px;
+    height: 600px;
+    border-radius: 10px;
+}
+.place_left{
+    width: 500px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background-color: #dfdfdf;
+    background: url('Places_images/galle2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px;
+
+
+}
+.place_right{
+    
+    width: 800px;
+    height: fit-content;
+    padding: 0px;
+    text-align: justify;
+    color: #134e89;
+}   
+.place_name{
+    color: white;
+    font-size: 76px;
+    position: relative;
+    bottom: 70px;
+    margin-left: 20px;
+    
+}
+.place_disc{
+    margin: 0px 20px;
+    font-size: 22px;
+}
+.place_para{
+    margin-left:20px ;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.p_img2{
+    background: url('Places_images/matara.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.p_img3{
+    background: url('Places_images/hambantota.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/**footer**/
+.footer{
+    display: flex;
+    background-color: #070707;
+    margin: 0;
+    color: white;
+    height:fit-content;
+    align-content: center;
+    justify-content: center;
+}
+
+.link_hp li{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    
+}
+
+.link_hp li a{
+    text-decoration: none;
+    color: white;
+}
+
+.link_hp li a:hover{
+    font-size: 18px;
+}
+
+.logo_link{
+    text-align: right;
+}
+
+.footer .form-control {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+.footer_contact{
+    position: relative;
+    margin-right: 140px;
+    margin-left: 50px;
+
+}
+
+.footer_container{
+    padding: 20px 240px;
+    display: flex;
+    align-content: center;
+}
+
+.footer_link{
+    display: inline;
+   margin-right: 150px;
+}
+
+.footer_div{
+    display: inline-flex;
+    margin-right: 0px;
+    float: right;
+}
+.footer_logos{
+    width: 36px;
+    height: 30px;
+}
+.why{
+    text-align: right;
+}
+
+.copyrightn{
+    text-align: center;
+    background-color: #070707;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: block;    
+}
