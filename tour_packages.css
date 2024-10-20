@@ -1,0 +1,554 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar {
+    background: linear-gradient(to right, #144f8a, #000121);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 60px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu_item:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
+.divider {
+    color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: 8px;
+}
+
+.login_btn {
+    background-color:  rgb(253, 152, 0);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 0px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login_btn:hover {
+    background-color: #1e90ff;
+    color: white;
+    border: 1px solid rgb(253, 152, 0);
+    font-weight: bold;
+}
+
+/**Package topic**/
+.package_topic{
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #144f8a;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    background-image: url(package_page_images/tour\ pkg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    font-size: 90px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+
+}
+.package_main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.package_container{
+    display: block;
+    height: fit-content;
+    width:1400px ;
+    margin-top: 50px;
+
+}
+.sub_package_main{
+    display: block;
+    margin: 40px 0px;
+    padding: 0;
+    background-color: #e90404;
+    width: 100%;
+    height: 520px;
+    box-shadow: 3px 3px 10px rgb(179, 179, 179);
+}
+.block_1{
+    display: flex;
+    margin: 0px;
+    padding:0;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 260px;
+
+}
+.block_2{
+    display: block;
+    width: 40%;
+    height: 250px;
+    margin: 5px;
+}
+
+.block_3 {
+    display: flex;
+    width: 60%;
+    height: 250px;
+    margin: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.block_4{
+    height: 220px;
+    width: 30%;
+    display: block;
+    margin: 5px;
+}
+.block_5{
+    display: block;
+    width: 100%;
+    height: 115px;
+    margin-top: 5px;
+}
+.block_6 {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    margin: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.block_7{
+    height: 100px;
+    width: 30%;
+    display: block;
+    margin: 0px;
+}
+.block_8{
+    height: 240px;
+    width: 50%;
+    display: block;
+    margin: 0px;
+}
+.bg_img1{
+    background-image: url(package_page_images/package_top.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.sub_topic{
+    color: white;
+    font-size: 72px;
+    position: relative;
+    top: 70px;
+    text-shadow: 3px 3px 10px black;
+}
+.sub_topic_2{
+    color: white;
+    font-size: 28px;
+    position: relative;
+    bottom: 10px;
+    text-shadow: 3px 3px 10px black;
+}
+.bg_img2{
+    background-image: url(Places_images/hambantota.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.bg_img3{
+    background-image: url(Places_images/galle2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.bg_img4{
+    background-image: url(Places_images/surfing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.view_places{
+    text-decoration: none;
+    color: white;
+
+}
+.view_places_button{
+    background-color: #1e90ff;
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.view_places_button:hover{
+    background-color: #144f8a;
+}
+.bl5_text{
+    font-size: 28px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+    color: #134e89;
+}
+.place_list {
+    
+    margin: 0;
+    font-size: 17px;
+    color: #134e89;
+    position: relative;
+    bottom: 20px;
+}
+.list1{
+    font-size: 14px;
+}
+.service{
+    position: relative;
+    bottom: 50px;
+}
+.payment{
+    
+    margin-top: 0;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+    font-size: 16px;
+    color: #134e89;
+}
+.payment_img{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-image: url(package_page_images/payment.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 50px;
+
+}
+.payment_button{  
+    text-decoration: none;
+    color: white;
+
+}
+.view_payment_button{
+    background-color: #1e90ff;
+    width: fit-content;
+    padding: 10px 40px;
+    font-size: 22px;
+    margin-left: 20px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 40px;
+}
+.view_payment_button:hover{
+    background-color: #144f8a;
+}
+.bg_img5{
+    background-image: url(Places_images/colombo_mm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img9{
+    background-image: url(Places_images/k3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img13{
+    background-image: url(Places_images/ella.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img17{
+    background-image: url(Places_images/dutch\ port.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img21{
+    background-image: url(Places_images/a2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img6{
+    background-image: url(Places_images/c4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img7{
+    background-image: url(Places_images/c3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img8{
+    background-image: url(Places_images/c2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+.bg_img10{
+    background-image: url(Places_images/K1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img11{
+    background-image: url(Places_images/k2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img12{
+    background-image: url(Places_images/kandy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img14{
+    background-image: url(Places_images/n2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img15{
+    background-image: url(Places_images/Nuwara\ eliya.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img16{
+    background-image: url(Places_images/NE.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img18{
+    background-image: url(Places_images/j3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img19{
+    background-image: url(Places_images/j1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img20{
+    background-image: url(Places_images/j2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img22{
+    background-image: url(Places_images/a1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img23{
+    background-image: url(Places_images/Anuradhapura-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.bg_img24{
+    background-image: url(Places_images/a3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+/**footer**/
+.footer{
+    display: flex;
+    background-color: #070707;
+    margin: 0;
+    color: white;
+    height:fit-content;
+    align-content: center;
+    justify-content: center;
+}
+
+.link_hp li{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    
+}
+
+.link_hp li a{
+    text-decoration: none;
+    color: white;
+}
+
+.link_hp li a:hover{
+    font-size: 18px;
+}
+
+.logo_link{
+    text-align: right;
+}
+
+.footer .form-control {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+.footer_contact{
+    position: relative;
+    margin-right: 140px;
+    margin-left: 50px;
+
+}
+
+.footer_container{
+    padding: 20px 240px;
+    display: flex;
+    align-content: center;
+}
+
+.footer_link{
+    display: inline;
+   margin-right: 150px;
+}
+
+.footer_div{
+    display: inline-flex;
+    margin-right: 0px;
+    float: right;
+}
+.footer_logos{
+    width: 36px;
+    height: 30px;
+}
+.why{
+    text-align: right;
+}
+
+.copyrightn{
+    text-align: center;
+    background-color: #070707;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: block;    
+}
