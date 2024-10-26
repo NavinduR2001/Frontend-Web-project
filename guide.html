@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>travelus.com</title>
+        <link rel="stylesheet" type="text/css" href="guide.css">
+        
+    </head>
+<body>
+
+
+    <!--Menu bar-->
+    <div class="navbar">
+        <div class="logo"><img src="travelus_logo.png" height="60%" ></div>
+        <div class="menu">
+            <a href="home_html.html" class="menu_item">HOME</a>
+            <span class="divider">|</span>
+            <a href="home_html.html#places" class="menu_item">PLACES</a>
+            <span class="divider">|</span>
+            <a href="home_html.html#service" class="menu_item">SERVICES</a>
+            <span class="divider">|</span>
+            <a href="home_html.html#contact" class="menu_item">CONTACT</a>
+        </div>
+        <div class="login">
+            <a href="#" class="login_btn">BOOK</a>
+        </div>
+    </div>
+
+    <div class="pkg_main">
+        <div class="container">
+            <h1>LOCAL GUIDING SERVICES</h1>
+            <p>Explore Sri Lanka like never before with our Local Guiding Services! Our knowledgeable and friendly guides are passionate about sharing the rich culture, history, and natural beauty of this stunning island. Whether you're visiting ancient temples, bustling markets, or lush tea plantations, we provide personalized tours tailored to your interests. Experience the authentic charm of Sri Lanka with insider tips, hidden gems, and unforgettable stories. Book your local guide today for a memorable and immersive adventure!
+            </p>
+            <div class="guides-container">
+                <div class="guide-profile">
+                    <img src="guide_images/G1.jpg" alt="Guide 1 Profile Picture" class="profile-picture">
+                    <h2>Name: Navindu Ramanayaka</h2>
+                    <p>Age: 23</p>
+                    <p>City: Matara</p>
+                    <p>Vehicle Type: Van</p>
+                    <p>Working Experience: 3 years</p>
+                    <p>Payment per Day: $150</p>
+                    <button class="hireBtn" data-guide="Navindu Ramanayaka">HIRE</button>
+                </div>
+                <div class="guide-profile">
+                    <img src="guide_images/G2.jpg" alt="Guide 2 Profile Picture" class="profile-picture">
+                    <h2>Name: Supun Harshana</h2>
+                    <p>Age: 30</p>
+                    <p>City: Colombo</p>
+                    <p>Vehicle Type: SUV</p>
+                    <p>Working Experience: 8 years</p>
+                    <p>Payment per Day: $180</p>
+                    <button class="hireBtn" data-guide="Supun Harshana">HIRE</button>
+                </div>
+                <div class="guide-profile">
+                    <img src="guide_images/G3.jpg" alt="Guide 3 Profile Picture" class="profile-picture">
+                    <h2>Name: Jayalath Gunathilake</h2>
+                    <p>Age: 40</p>
+                    <p>City: Galle</p>
+                    <p>Vehicle Type: Van</p>
+                    <p>Working Experience: 15 years</p>
+                    <p>Payment per Day: $200</p>
+                    <button class="hireBtn" data-guide="Jayalath Gunathilake">HIRE</button>
+                </div>
+                <div class="guide-profile">
+                    <img src="guide_images/G6.jpg" alt="Guide 4 Profile Picture" class="profile-picture">
+                    <h2>Name: Vihara Rathnayeka</h2>
+                    <p>Age: 34</p>
+                    <p>City: Kandy</p>
+                    <p>Vehicle Type: Car</p>
+                    <p>Working Experience: 6 years</p>
+                    <p>Payment per Day: $160</p>
+                    <button class="hireBtn" data-guide="Vihara Rathnayeka">HIRE</button>
+                </div>
+                <div class="guide-profile">
+                    <img src="guide_images/G4.jpg" alt="Guide 5 Profile Picture" class="profile-picture">
+                    <h2>Name: Mahela Rathnayake</h2>
+                    <p>Age: 33</p>
+                    <p>City: Nuwara eliya</p>
+                    <p>Vehicle Type: Car</p>
+                    <p>Working Experience: 12 years</p>
+                    <p>Payment per Day: $140</p>
+                    <button class="hireBtn" data-guide="Mahela Rathnayake">HIRE</button>
+                </div>
+                <div class="guide-profile">
+                    <img src="guide_images/G5.jpg" alt="Guide 6 Profile Picture" class="profile-picture">
+                    <h2>Name: Rahvan Mirinda</h2>
+                    <p>Age: 26</p>
+                    <p>City: Jaffna</p>
+                    <p>Vehicle Type: Car</p>
+                    <p>Working Experience: 5 years</p>
+                    <p>Payment per Day: $130</p>
+                    <button class="hireBtn" data-guide="Rahvan Mirinda">HIRE</button>
+                </div>
+            </div>
+        
+            <div id="popupForm" class="popup-form">
+                <div class="form-container">
+                    <span class="close-btn">&times;</span>
+                    <h2>Hire Guide</h2>
+                    <form id="hireForm">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                        
+                        <label for="email">E-mail Address</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="startDate">Start Date</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                        
+                        <label for="endDate">End Date</label>
+                        <input type="date" id="endDate" name="endDate" required>
+                        
+                        <label for="numPassengers">Number of Passengers</label>
+                        <input type="number" id="numPassengers" name="numPassengers" required>
+                        
+                        <label for="specialMessage">Special Message</label>
+                        <textarea id="specialMessage" name="specialMessage"></textarea>
+                        
+                        <button type="submit">HIRE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--footer section-->
+     <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_navigation">
+                <h3>Navigation</h3>
+                <ul class="link_hp">
+                    <li><a href="home_html.html">Home</a></li>
+                    <li><a href="home_html.html#places">Places</a></li>
+                    <li><a href="tour_packages.html" target="_blank">Packages</a></li>
+                    <li><a href="Transport.html" target="_blank">Transport services</a></li>
+                    <li><a href="guide.html" target="_blank">Local guide</a></li>
+                    <li><a href="home_html.html#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Phone: 070-1989505</li>
+                    <li>Email: travelus@gmail.com</li>
+                    <li>Address: No 212/1, Mathara road, Tangalle, Sri lanka</li>
+                </ul>
+            </div>
+            <div class="footer_social">
+                <div class="why"><span style="color: rgb(255, 255, 255);"><b>Why choose a TRAVELUS tour or cruise?</b></span><br>
+                    Our award-winning collection of holidays covers all seven continents<br>
+                    with carefully planned itineraries ranging from rail journeys and river cruises<br>
+                    to small-group adventures and trips exclusively for solo travellers
+                </div>
+                <div class="logo_link">
+                <h3>Follow Us</h3>
+                
+                <a href="#"><img class="footer_logos" src="footer_images/fb.png" alt="Facebook"></a></li>
+                <a href="#"><img class="footer_logos" src="footer_images/linkdin.png" alt="Linkdin"></a></li>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <div class="copyrightn">
+        <p>&copy; 2024 Travelus. All Rights Reserved. Developed by 21CIS0070_NK RAMANAYAKA</p>
+    </div>
+    <script src="guide.js"></script>
+</body>
